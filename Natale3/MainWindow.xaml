@@ -5,8 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Natale3"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="ON/OFF" Height="450" Width="304">
     <Grid>
-        
+        <Button Content="ON" HorizontalAlignment="Left" Margin="75,38,0,0" VerticalAlignment="Top" Width="110" Height="32" FontWeight="Bold" FontSize="20"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="66,90,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="66,125,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="66,160,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="66,195,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="66,230,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="66,265,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="200"/>
+        <Label Content="1:" HorizontalAlignment="Left" Margin="26,90,0,0" VerticalAlignment="Top" Width="35" Height="30" FontSize="18" FontWeight="Bold"/>
+        <Label Content="1:" HorizontalAlignment="Left" Margin="26,125,0,0" VerticalAlignment="Top" Width="35" Height="30" FontSize="18" FontWeight="Bold"/>
+        <Label Content="1:" HorizontalAlignment="Left" Margin="26,160,0,0" VerticalAlignment="Top" Width="35" Height="30" FontSize="18" FontWeight="Bold"/>
+        <Label Content="1:" HorizontalAlignment="Left" Margin="26,195,0,0" VerticalAlignment="Top" Width="35" Height="30" FontSize="18" FontWeight="Bold"/>
+        <Label Content="1:" HorizontalAlignment="Left" Margin="26,230,0,0" VerticalAlignment="Top" Width="35" Height="30" FontSize="18" FontWeight="Bold"/>
+        <Label Content="1:" HorizontalAlignment="Left" Margin="26,265,0,0" VerticalAlignment="Top" Width="35" Height="30" FontSize="18" FontWeight="Bold"/>
+        <Button Content="Calcola" HorizontalAlignment="Left" Margin="75,315,0,0" VerticalAlignment="Top" Width="110" Height="30" FontSize="16" FontWeight="Bold"/>
+        <TextBox HorizontalAlignment="Left" Height="30" Margin="26,365,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="240"/>
     </Grid>
 </Window>
